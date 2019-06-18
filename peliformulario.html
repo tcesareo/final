@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>:: Formulario ::</title>
+  <link rel="stylesheet" href="css/pelis.css">
+</head>
+<body>
+
+<!--  Título ---------------->
+<header>
+	<p>
+    <h3>&nbsp;</h3>
+    <h1 class="h1">Agregar Películas</h1>
+    </p>
+    
+</header>
+
+<!--  NOMBRE ---------------->
+<nav>
+        <a class="nav-enlace" href="index.html">Inicio</a>
+        <a class="nav-enlace" href="peli1.html">Película 1</a>
+        <a class="nav-enlace" href="peli2.html">Película 2</a>
+        <a class="nav-enlace" href="peli3.html">Película 3</a>
+        <a class="nav-selected" href="peliformulario.html">Agregar películas</a>
+	</nav>
+
+<!--- IMAGEN PERFIL ---------------->
+
+   <section class="centrado">
+   <p></p>
+   <p></p>
+   <table width="100%" border="1">
+     <tr>
+       <td><p>Nombre de la película</p> </td>
+       <td><input type="text" size="15" maxlength="30" value="Nombre" name="nombre"></td>
+     </tr>
+     <tr>
+       <td width="41%"><p>Sinopsis</p></td>
+       <td width="59%">
+       <p><textarea name="comentarios" rows="10" cols="40">Sinopsis</textarea></p>
+       </td>
+     </tr>
+     <tr>
+       <td><p>Protagonista de la película</p></td>
+       <td>
+       <input type="text" size="15" maxlength="30" value="Protagonista" name="protagonista">
+       </td>
+     </tr>
+     <tr>
+       <td><p>Género de la película</p></td>
+       <td>
+      <p>Terror 
+        <input type = 'radio' name = 'genero' value = 'Terror'></p>
+      <p>Comedia
+        <input type = 'radio' name = 'genero' value = 'Comedia'></p>
+      <p>Romántica
+        <input type = 'radio' name = 'genero' value = 'Romántica'></p>
+      <p>Suspenso
+        <input type = 'radio' name = 'genero' value = 'Suspenso'></p>
+      </td>
+     </tr>
+     <tr>
+       <td>Opinión</td>
+       <td><p>&nbsp;</p>
+         <p>Excelente
+           <input type = 'radio' name = 'tamaño' value = 'Excelente'>
+         </p>
+      <p>Buena
+        <input type = 'radio' name = 'tamaño' value = 'Buena'></p>
+      <p>Regular
+        <input type = 'radio' name = 'tamaño' value = 'Regular'></p>
+      <p>Mala
+        <input type = 'radio' name = 'tamaño' value = 'Mala'></p></td>
+     </tr>
+     <tr>
+       <td><p>Idoma</p></td>
+       <td>
+      <p>Idioma </p>
+      <select name = 'Idioma'>
+		  <option value = '1'>Inglés</option>
+		  <option value = '2'>Francés</option>
+		  <option value = '3'>Español</option>
+		</select>
+      </td>
+     </tr>
+   </table>
+   <p>&nbsp;</p>
+   </section>
+   <section class="contenido">
+     <!--- 03.2 ANTERIOR / SIGUIENTE ---------------->
+      <div id="antsig">
+      <p><a href="peli3.html" class="antsig">&lt;&lt; anterior</a> | <!--a href="peli3.html" class="antsig">siguiente &gt;&gt;</a--></p>
+      </div>
+</section>
+    
+<!-- PIE ---------------->   
+<footer>
+<p> <a href="https://www.unam.mx" target="_blank">UNAM</a> junio, 2019. | María Teresa Cesáreo Castillo |<strong>Curso HTML5, BÁSICO.</strong> Práctica final. </p>
+</footer>    
+
+</body>
+</html>

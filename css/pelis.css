@@ -1,0 +1,192 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700&subset=devanagari,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&subset=cyrillic,cyrillic-ext,greek,latin-ext);
+body {
+	background:url("../img/filmreel.png") top ;
+	font-family: 'Hind', sans-serif;
+    margin: 50px 50px;
+	padding-right:2%;
+	padding-left:2%;
+	padding-top:15px;
+	padding-bottom:30px;
+	border-radius: 17px 17px 17px 17px; 
+	-moz-border-radius: 17px 17px 17px 17px; 
+	-webkit-border-radius: 17px 17px 17px 17px; 
+	border: solid 1px #fff;
+	-webkit-box-shadow: 0px 0px 25px -11px rgba(205,205,207,1);
+	-moz-box-shadow: 0px 0px 25px -11px rgba(205,205,207,1);
+	box-shadow: 0px 0px 25px -11px rgba(205,205,207,1);
+	text-align:justify;
+}
+td {
+	padding-left: 50px;
+}
+p {
+	color: #454a50;
+	font-weight:300;
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+h1 {
+    color:#F39;
+    font-family: 'Comfortaa', cursive;
+    font-size: 35px;
+	line-height:38px;
+	font-weight: 400;
+    margin-bottom: 50px;
+	padding-bottom:20px;
+	text-align:center
+}
+h2 {
+    color: #5d5d5d;
+    font-family: 'Comfortaa', cursive;    
+	font-size: 28px;
+    font-weight: 200;
+	text-align:center;
+	padding-top:15px;
+}
+h3 {
+    color: #5d5d5d;
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: -15px;
+}
+img{
+	border: 2px solid #CCC;
+	padding:15px 15px;
+	background:#fff;
+}
+a img:hover {
+	border:4px solid #FCC;
+	margin-top:-2px;
+}
+a{
+	color:#454a50;
+	border:none;
+	text-decoration:underline;
+}
+a:hover{
+	color:#F39;
+	text-decoration:underline;
+}
+nav{
+	display:block;
+	text-align:center;
+	border-top:#ccc dotted 3px;
+	padding-bottom: 30px;
+}
+.nav-enlace{
+	display: inline-block;
+	color: #454a50;
+	border:solid 1px #ccc;
+	border-radius: 0px 0px 5px 14px;
+	border-top:solid 5px #cccccc;
+	background:#FCC;
+	padding:5px 20px 3px;
+	text-align:center;
+	margin-left:-5px;
+	margin-top:-3px;
+	text-decoration:none;
+}
+.nav-enlace:hover{
+	background:#f39;
+	color: #ffffff;
+	margin-top:-6px;
+	text-decoration:none;
+}
+.nav-selected, .nav-selected:hover{
+	display: inline-block;
+	background:#ffffff;
+	color: #f39;
+	border:solid 1px #ccc;
+	border-radius: 0px 0px 5px 14px;
+	border-top:solid 5px #cccccc;
+	padding:5px 20px 3px;
+	text-align:center;
+	margin-left:-5px;
+	margin-top:-3px;
+	text-decoration:none;
+}
+footer{
+	border-bottom: #ccc dotted 2px;
+	text-align:center;
+	font-size:.7em;
+	text-decoration:none;
+}
+
+a.footer:hover{
+	text-decoration:underline;
+	color:#5d5d5d;
+	font-weight: 500;
+}
+/* CONTENEDORES */
+.contenido {
+    border-bottom: 1px solid #fcc;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px 30px 60px;
+}
+.video {
+	border-top:3px double #FCC;
+	text-align:center;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:30px;
+	padding-top:20px;
+}
+#antsig {
+	margin-left:30%;
+	margin-right:30%;
+	margin-top: 80px;
+	border-top:2px dotted #ccc;
+	text-align:center;
+}
+a.antsig{
+	border:none;
+	color:#F39;
+	text-decoration:none;
+}
+a.antsig:hover{
+	color:#FCC;
+}
+.centrado{
+	text-align:center;
+}
+.referencias{
+	font-size:.8em;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+.datostable{
+	font-size:.8em;
+}
+@media (max-width: 800px) {	
+
+	body{
+		background: url("../img/filmreel.png") no-repeat;
+		background-size: cover;
+		background-color: rgba(0,0,0,0.8);
+		min-width: 640px;
+	}
+	p {
+		color: white;
+	}
+	img.trailer {
+		width: 300px;
+		height: 130px;
+		border: solid 3px #000;
+	}
+	a{
+		color:#fff;
+		border:none;
+		text-decoration:underline;
+	}
+	h3 {
+		color: pink;
+	}
+}
+
+
